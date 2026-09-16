@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int f;
+    scanf("%d",&f);
+    for(int i=1;i<=f;i++){
+        int a, b, c, average;
+        scanf("%d %d %d", &a, &b, &c);
+        average=(a+b)/2;
+        if(average>c){
+            printf("Yes");
+        }
+        else{
+            printf("no");
+        }
+    }
+    return 0;
+}
